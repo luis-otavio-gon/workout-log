@@ -1,0 +1,22 @@
+@charset "UTF-8";
+	h2{
+		color: black;
+		font-family: Verdana, Arial; 
+	}
+	h5{
+		color: black;
+		text-align: right;
+	}
+	h6{
+		color: black;
+		text-align: right;
+		bottom: top;
+	}
+	body{ 
+		background-color: #F5F5F5;
+		background-image: url(/front/imagens/car1.png);
+		background-position: bottom center;
+		background-attachment: scroll;
+		background-repeat: no-repeat;
+		font-family: Verdana;
+	}
