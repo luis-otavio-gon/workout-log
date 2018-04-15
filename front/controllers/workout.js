@@ -1,6 +1,6 @@
-var app = angular.module('CrudApp');
+var app = angular.module('WorkoutApp');
 
-app.controller('CrudController', function($scope, $http){
+app.controller('WorkoutController', function($scope, $http){
 	
 	// chama função atualizaTabela
 	$scope.consulta = function(){
