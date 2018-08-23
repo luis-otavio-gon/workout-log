@@ -4,7 +4,7 @@ app.controller('WorkoutController', function($scope, $http){
 	
 	// chama função atualizaTabela
 	$scope.consulta = function(){
-			atualizaTabelaCarro();
+			atualizaTabelaExercicio();
 	};
 
 	// chama API - insere no banco de dados e atualiza tabela
